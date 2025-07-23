@@ -18,5 +18,5 @@ public class Report
 
     public Guid ResolvedByUserId { get; set; } // кем закрыта
 
-    public Status Status { get; set; } = Status.Open; // статус по умолчанию опен
+    public ReportStatus ReportStatus { get; set; } = ReportStatus.OPEN; // статус по умолчанию опен
 }
